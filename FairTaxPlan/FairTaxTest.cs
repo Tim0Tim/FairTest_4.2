@@ -4,7 +4,7 @@ namespace FairTaxPlan
 {
     class FairTaxTest
     {
-        static void Main(string[] args)
+        static void Main()
         {
             decimal housing;//to store user input as a decimal
             decimal food;//to store user input as a decimal
@@ -15,7 +15,7 @@ namespace FairTaxPlan
             decimal vacations;//to store user input as a decimal
             decimal monthlyPreTax = 0;//to hold the sum of user input
             decimal monthlyTax = 0;//to hold the sum of fairtax amount
-            string total;//to hold the sume of the user input and the fairtax amount
+            decimal total;//to hold the sume of the user input and the fairtax amount
 
             FairTax userConsumption = null;//creating a fairtax object
 
